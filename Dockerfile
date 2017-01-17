@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.4.16
+ENV VERSION=0.6.1
 
 RUN gem install cake --version ${VERSION} --no-format-exec
 
